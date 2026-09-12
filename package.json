@@ -1,0 +1,34 @@
+{
+  "name": "food-app",
+  "version": "1.0.0",
+  "description": "React learning",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/dineshinau/food-app#readme",
+  "bugs": {
+    "url": "https://github.com/dineshinau/food-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dineshinau/food-app.git"
+  },
+  "author": "dineshinau",
+  "type": "commonjs",
+  "scripts": {
+    "test": "start",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
